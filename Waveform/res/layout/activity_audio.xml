@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/recordPart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/record_part"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@+color/brown"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@+color/teal"
+        android:background="#ffffff"
+        android:text="@string/start_record" />
+    <View 
+        android:layout_height="5dp"
+    	android:layout_width="fill_parent" />
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_margin="10dp"
+        android:textColor="@+color/red"
+        android:background="#000000"
+        android:text="@string/stop_record" />
+    <View 
+        android:layout_height="10dp"
+    	android:layout_width="fill_parent" />
+    <TextView
+        android:id="@+id/browsePart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/browse_part"
+        android:textColor="@+color/brown"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/browseaudio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@+color/teal"
+        android:background="#ffffff"
+        android:text="@string/browse_part" />
+    <View 
+        android:layout_height="5dp"
+    	android:layout_width="fill_parent" />
+    <TextView
+        android:id="@+id/browseName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text=""
+        android:textStyle="bold" />
+    <View 
+        android:layout_height="20dp"
+    	android:layout_width="fill_parent" />
+    <Button
+        android:id="@+id/toVisualizerActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_margin="10dp"
+        android:textColor="@+color/purple"
+        android:background="#000000"
+        android:text="@string/to_visualizer_activity" />
+</LinearLayout>
